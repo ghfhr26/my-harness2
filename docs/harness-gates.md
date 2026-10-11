@@ -21,7 +21,7 @@
 | ID | 조건 |
 |---|---|
 | G0-1 | `input.json`의 유저스토리 번호가 1개 이상이고 전부 1~5 안에 있다 |
-| G0-2 | 대상 화면명이 1개 이상이고 전부 `harness-artifacts.md` 슬러그 표 10개 안에 있다 |
+| G0-2 | 대상 화면명이 서로 다른 2개 이상이고 전부 `harness-artifacts.md` 슬러그 표 10개 안에 있다 (키스크린 2~3개를 그리려면 화면이 2개는 있어야 한다) |
 | G0-3 | `rules/rules.json`의 해시가 현재 `docs/design.md`와 같다 |
 | G0-4 | `harness.config.json`의 `figma_file_url`이 비어 있지 않다 |
 | G0-5 | 환경 변수 `FIGMA_TOKEN`으로 `figma_file_url`의 파일을 읽을 수 있다 |

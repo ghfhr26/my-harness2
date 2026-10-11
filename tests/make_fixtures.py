@@ -267,6 +267,17 @@ def m_g0_3(S):
     S["overrides"]["rules.json"] = {**RULES, "design_sha256": "0" * 64}
 
 
+def m_g0_2_single(S):
+    # 대상 화면을 1개만 넣은 실행. 나머지 산출물은 그 1개에 맞게 줄여 G0-2만 걸리게 한다.
+    S["input"].update(screens=["내 자산"], stories=[4])
+    S["references"][:] = [r for r in S["references"] if r["screen"] == "내 자산"]
+    S["adopt"][:] = [i for i in S["adopt"] if i["screen"] == "내 자산"]
+    S["spec"][:] = [s for s in S["spec"] if s[0] == "내 자산"]
+    S["components"][:] = ["asset-card", "button-primary", "text-input"]
+    drop_frame(S, "key/운영자 검수 화면")
+    drop_frame(S, REVIEW)
+
+
 def m_g2_5(S):
     spec_of(S, "운영자 검수 화면")["keyscreen"] = False
     drop_frame(S, "key/운영자 검수 화면")
@@ -328,6 +339,7 @@ def post_i2(path):
 FAILS = {
     "G0-1": lambda S: S["input"]["stories"].append(9),
     "G0-2": lambda S: S["input"]["screens"].append("설정"),
+    "G0-2--single-screen": m_g0_2_single,
     "G0-3": m_g0_3,
     "G0-4": lambda S: S["overrides"].update({"harness.config.json": {"figma_file_url": ""}}),
     "G0-5": lambda S: S.update(figma_file=None),

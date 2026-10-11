@@ -1,0 +1,7 @@
+{
+  "components": [
+    "asset-card",
+    "button-primary",
+    "text-input"
+  ]
+}

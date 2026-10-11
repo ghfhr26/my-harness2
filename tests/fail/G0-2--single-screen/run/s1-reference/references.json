@@ -1,0 +1,22 @@
+{
+  "references": [
+    {
+      "id": "R-01",
+      "screen": "내 자산",
+      "app": "토스",
+      "url": "https://uibowl.io/ui/1"
+    },
+    {
+      "id": "R-02",
+      "screen": "내 자산",
+      "app": "당근",
+      "url": "https://uibowl.io/ui/2"
+    },
+    {
+      "id": "R-03",
+      "screen": "내 자산",
+      "app": "Notion",
+      "url": "https://uibowl.io/ui/3"
+    }
+  ]
+}

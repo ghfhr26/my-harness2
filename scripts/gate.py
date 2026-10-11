@@ -25,7 +25,7 @@ S5_RETURN_LIMIT = 3  # S5→S4 복귀: 3회까지, 4번째 미통과에 중단
 
 RULES = {
     "G0-1": "유저스토리 번호가 1개 이상이고 전부 1~5",
-    "G0-2": "대상 화면명이 1개 이상이고 전부 핵심 화면 10개 안",
+    "G0-2": "대상 화면명이 2개 이상이고 전부 핵심 화면 10개 안",
     "G0-3": "rules.json 해시가 design.md와 같다",
     "G0-4": "figma_file_url이 비어 있지 않다",
     "G0-5": "FIGMA_TOKEN으로 Figma 파일을 읽을 수 있다",
@@ -208,6 +208,8 @@ def check_input(inp):
     bad = [s for s in screens if s not in SCREEN_SLUGS]
     if not screens or bad:
         v.append(V("G0-2", "대상 화면명이 없거나 목록 밖", actual=bad or "없음", allowed=" / ".join(SCREEN_SLUGS)))
+    elif len(set(screens)) < 2:
+        v.append(V("G0-2", "대상 화면이 2개 미만이라 키스크린 2~3개를 그릴 수 없음", actual=screens, allowed="서로 다른 화면 2개 이상"))
     return v
 
 

@@ -1,0 +1,28 @@
+{
+  "run": "run",
+  "created": "2026-10-11T10:00:00",
+  "stage": "S5",
+  "status": "running",
+  "gates": {},
+  "retries": {},
+  "s5_returns": 0,
+  "violation_counts": {},
+  "confirm_history": [],
+  "hashes": {
+    "S1": {
+      "adopt.md": "587739d200a1ba172b6096118f972adb04dddcf5549660d1cdca46e286d215cf",
+      "references.json": "4c8022dcb951261a5a003966e8457e4f38502cecf9d9c30c63714dd64b58bb7f"
+    },
+    "S2": {
+      "screen-spec.md": "fbf18ed95873d4a0d14efc94519b8bcf4220cdf7f171a8bbe0b0c137676b3f49"
+    },
+    "S3": {
+      "approval.json": "95c6d5037e9265a8d5767da4603c4631ed26c8b22d805180e931fd6be0131eb7"
+    },
+    "S4": {
+      "components.json": "a60820381c81b21d57543ad4d9ea2223a786d3424eaf5749f32e7e966d6b579c",
+      "tokens.json": "20296bdf734a5ed05c7d853e5eddb1b40485dca2959300e62345c32c426fa62b"
+    }
+  },
+  "lock": "9b5b459001fcb8442ba1d7a36d3596989beb54984d7f9046bc0397889a0ec8c4"
+}

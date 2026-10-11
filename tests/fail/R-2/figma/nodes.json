@@ -1,0 +1,1229 @@
+{
+  "nodes": {
+    "0:1": {
+      "document": {
+        "id": "0:1",
+        "name": "run",
+        "type": "CANVAS",
+        "children": [
+          {
+            "id": "1:10",
+            "name": "key/내 자산",
+            "type": "FRAME",
+            "absoluteBoundingBox": {
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 844
+            },
+            "fills": [
+              {
+                "blendMode": "NORMAL",
+                "type": "SOLID",
+                "color": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1
+                }
+              }
+            ],
+            "strokes": [],
+            "effects": [],
+            "children": []
+          },
+          {
+            "id": "1:11",
+            "name": "key/운영자 검수 화면",
+            "type": "FRAME",
+            "absoluteBoundingBox": {
+              "x": 500,
+              "y": 0,
+              "width": 390,
+              "height": 844
+            },
+            "fills": [
+              {
+                "blendMode": "NORMAL",
+                "type": "SOLID",
+                "color": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1
+                }
+              }
+            ],
+            "strokes": [],
+            "effects": [],
+            "children": []
+          },
+          {
+            "id": "1:26",
+            "name": "screen/내 자산",
+            "type": "FRAME",
+            "absoluteBoundingBox": {
+              "x": 1000,
+              "y": 0,
+              "width": 390,
+              "height": 844
+            },
+            "fills": [
+              {
+                "blendMode": "NORMAL",
+                "type": "SOLID",
+                "color": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1
+                }
+              }
+            ],
+            "strokes": [],
+            "effects": [],
+            "children": [
+              {
+                "id": "1:20",
+                "name": "title",
+                "type": "TEXT",
+                "characters": "내 자산",
+                "absoluteBoundingBox": {
+                  "x": 1016,
+                  "y": 64,
+                  "width": 358,
+                  "height": 36.4
+                },
+                "fills": [
+                  {
+                    "blendMode": "NORMAL",
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.0784313725490196,
+                      "g": 0.0784313725490196,
+                      "b": 0.0784313725490196,
+                      "a": 1
+                    }
+                  }
+                ],
+                "style": {
+                  "fontFamily": "Pretendard",
+                  "fontPostScriptName": "Pretendard-Bold",
+                  "fontWeight": 700,
+                  "fontSize": 28,
+                  "lineHeightPx": 36.4,
+                  "lineHeightUnit": "PIXELS",
+                  "letterSpacing": 0
+                }
+              },
+              {
+                "id": "1:21",
+                "name": "visibility-select",
+                "type": "FRAME",
+                "absoluteBoundingBox": {
+                  "x": 1016,
+                  "y": 120,
+                  "width": 358,
+                  "height": 48
+                },
+                "fills": [
+                  {
+                    "blendMode": "NORMAL",
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.9529411764705882,
+                      "g": 0.9529411764705882,
+                      "b": 0.9529411764705882,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokes": [],
+                "effects": [],
+                "children": [
+                  {
+                    "id": "1:13",
+                    "name": "option/selected",
+                    "type": "FRAME",
+                    "absoluteBoundingBox": {
+                      "x": 1020,
+                      "y": 124,
+                      "width": 173,
+                      "height": 40
+                    },
+                    "fills": [
+                      {
+                        "blendMode": "NORMAL",
+                        "type": "SOLID",
+                        "color": {
+                          "r": 1.0,
+                          "g": 1.0,
+                          "b": 1.0,
+                          "a": 1
+                        }
+                      }
+                    ],
+                    "strokes": [],
+                    "effects": [],
+                    "children": [
+                      {
+                        "id": "1:12",
+                        "name": "비공개",
+                        "type": "TEXT",
+                        "characters": "비공개",
+                        "absoluteBoundingBox": {
+                          "x": 1036,
+                          "y": 133,
+                          "width": 141,
+                          "height": 22.5
+                        },
+                        "fills": [
+                          {
+                            "blendMode": "NORMAL",
+                            "type": "SOLID",
+                            "color": {
+                              "r": 0.0784313725490196,
+                              "g": 0.0784313725490196,
+                              "b": 0.0784313725490196,
+                              "a": 1
+                            }
+                          }
+                        ],
+                        "style": {
+                          "fontFamily": "Pretendard",
+                          "fontPostScriptName": "Pretendard-SemiBold",
+                          "fontWeight": 600,
+                          "fontSize": 15,
+                          "lineHeightPx": 22.5,
+                          "lineHeightUnit": "PIXELS",
+                          "letterSpacing": 0
+                        }
+                      }
+                    ],
+                    "cornerRadius": 9999,
+                    "layoutMode": "HORIZONTAL",
+                    "paddingLeft": 16,
+                    "paddingRight": 16,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "itemSpacing": 0
+                  },
+                  {
+                    "id": "1:15",
+                    "name": "option",
+                    "type": "FRAME",
+                    "absoluteBoundingBox": {
+                      "x": 1197,
+                      "y": 124,
+                      "width": 173,
+                      "height": 40
+                    },
+                    "fills": [],
+                    "strokes": [],
+                    "effects": [],
+                    "children": [
+                      {
+                        "id": "1:14",
+                        "name": "멤버 공개",
+                        "type": "TEXT",
+                        "characters": "멤버 공개",
+                        "absoluteBoundingBox": {
+                          "x": 1213,
+                          "y": 133,
+                          "width": 141,
+                          "height": 22.5
+                        },
+                        "fills": [
+                          {
+                            "blendMode": "NORMAL",
+                            "type": "SOLID",
+                            "color": {
+                              "r": 0.4392156862745098,
+                              "g": 0.4392156862745098,
+                              "b": 0.4392156862745098,
+                              "a": 1
+                            }
+                          }
+                        ],
+                        "style": {
+                          "fontFamily": "Pretendard",
+                          "fontPostScriptName": "Pretendard-SemiBold",
+                          "fontWeight": 600,
+                          "fontSize": 15,
+                          "lineHeightPx": 22.5,
+                          "lineHeightUnit": "PIXELS",
+                          "letterSpacing": 0
+                        }
+                      }
+                    ],
+                    "cornerRadius": 9999,
+                    "layoutMode": "HORIZONTAL",
+                    "paddingLeft": 16,
+                    "paddingRight": 16,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "itemSpacing": 0
+                  }
+                ],
+                "cornerRadius": 9999,
+                "layoutMode": "HORIZONTAL",
+                "paddingLeft": 4,
+                "paddingRight": 4,
+                "paddingTop": 4,
+                "paddingBottom": 4,
+                "itemSpacing": 4
+              },
+              {
+                "id": "1:23",
+                "name": "text-input",
+                "type": "INSTANCE",
+                "absoluteBoundingBox": {
+                  "x": 1016,
+                  "y": 184,
+                  "width": 358,
+                  "height": 48
+                },
+                "fills": [
+                  {
+                    "blendMode": "NORMAL",
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.9411764705882353,
+                      "g": 0.9411764705882353,
+                      "b": 0.9411764705882353,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokes": [],
+                "effects": [],
+                "children": [
+                  {
+                    "id": "1:22",
+                    "name": "자산 검색",
+                    "type": "TEXT",
+                    "characters": "자산 검색",
+                    "absoluteBoundingBox": {
+                      "x": 1032,
+                      "y": 196,
+                      "width": 326,
+                      "height": 22.5
+                    },
+                    "fills": [
+                      {
+                        "blendMode": "NORMAL",
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.6784313725490196,
+                          "g": 0.6784313725490196,
+                          "b": 0.6784313725490196,
+                          "a": 1
+                        }
+                      }
+                    ],
+                    "style": {
+                      "fontFamily": "Pretendard",
+                      "fontPostScriptName": "Pretendard-Regular",
+                      "fontWeight": 400,
+                      "fontSize": 15,
+                      "lineHeightPx": 22.5,
+                      "lineHeightUnit": "PIXELS",
+                      "letterSpacing": 0
+                    }
+                  }
+                ],
+                "cornerRadius": 16,
+                "layoutMode": "HORIZONTAL",
+                "paddingLeft": 16,
+                "paddingRight": 16,
+                "paddingTop": 12,
+                "paddingBottom": 12,
+                "itemSpacing": 0,
+                "componentId": "c5"
+              },
+              {
+                "id": "1:19",
+                "name": "asset-card",
+                "type": "INSTANCE",
+                "absoluteBoundingBox": {
+                  "x": 1016,
+                  "y": 248,
+                  "width": 358,
+                  "height": 140
+                },
+                "fills": [
+                  {
+                    "blendMode": "NORMAL",
+                    "type": "SOLID",
+                    "color": {
+                      "r": 1.0,
+                      "g": 1.0,
+                      "b": 1.0,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokes": [
+                  {
+                    "blendMode": "NORMAL",
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.9411764705882353,
+                      "g": 0.9411764705882353,
+                      "b": 0.9411764705882353,
+                      "a": 1
+                    }
+                  }
+                ],
+                "effects": [],
+                "children": [
+                  {
+                    "id": "1:16",
+                    "name": "회의록 요약 프롬프트",
+                    "type": "TEXT",
+                    "characters": "회의록 요약 프롬프트",
+                    "absoluteBoundingBox": {
+                      "x": 1040,
+                      "y": 272,
+                      "width": 310,
+                      "height": 23.8
+                    },
+                    "fills": [
+                      {
+                        "blendMode": "NORMAL",
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.0784313725490196,
+                          "g": 0.0784313725490196,
+                          "b": 0.0784313725490196,
+                          "a": 1
+                        }
+                      }
+                    ],
+                    "style": {
+                      "fontFamily": "Pretendard",
+                      "fontPostScriptName": "Pretendard-SemiBold",
+                      "fontWeight": 600,
+                      "fontSize": 17,
+                      "lineHeightPx": 23.799999999999997,
+                      "lineHeightUnit": "PIXELS",
+                      "letterSpacing": 0
+                    }
+                  },
+                  {
+                    "id": "1:17",
+                    "name": "visibility-label",
+                    "type": "TEXT",
+                    "characters": "비공개",
+                    "absoluteBoundingBox": {
+                      "x": 1040,
+                      "y": 304,
+                      "width": 310,
+                      "height": 16.8
+                    },
+                    "fills": [
+                      {
+                        "blendMode": "NORMAL",
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.4392156862745098,
+                          "g": 0.4392156862745098,
+                          "b": 0.4392156862745098,
+                          "a": 1
+                        }
+                      }
+                    ],
+                    "style": {
+                      "fontFamily": "Pretendard",
+                      "fontPostScriptName": "Pretendard-SemiBold",
+                      "fontWeight": 600,
+                      "fontSize": 12,
+                      "lineHeightPx": 16.799999999999997,
+                      "lineHeightUnit": "PIXELS",
+                      "letterSpacing": 0
+                    }
+                  },
+                  {
+                    "id": "1:18",
+                    "name": "sale-status",
+                    "type": "TEXT",
+                    "characters": "검수 대기",
+                    "absoluteBoundingBox": {
+                      "x": 1040,
+                      "y": 329,
+                      "width": 310,
+                      "height": 16.8
+                    },
+                    "fills": [
+                      {
+                        "blendMode": "NORMAL",
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.4392156862745098,
+                          "g": 0.4392156862745098,
+                          "b": 0.4392156862745098,
+                          "a": 1
+                        }
+                      }
+                    ],
+                    "style": {
+                      "fontFamily": "Pretendard",
+                      "fontPostScriptName": "Pretendard-Regular",
+                      "fontWeight": 400,
+                      "fontSize": 12,
+                      "lineHeightPx": 16.799999999999997,
+                      "lineHeightUnit": "PIXELS",
+                      "letterSpacing": 0
+                    }
+                  }
+                ],
+                "cornerRadius": 24,
+                "layoutMode": "VERTICAL",
+                "paddingLeft": 24,
+                "paddingRight": 24,
+                "paddingTop": 24,
+                "paddingBottom": 24,
+                "itemSpacing": 8,
+                "strokeWeight": 1,
+                "componentId": "c1"
+              },
+              {
+                "id": "1:25",
+                "name": "button-primary",
+                "type": "INSTANCE",
+                "absoluteBoundingBox": {
+                  "x": 1016,
+                  "y": 420,
+                  "width": 358,
+                  "height": 48
+                },
+                "fills": [
+                  {
+                    "blendMode": "NORMAL",
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.0784313725490196,
+                      "g": 0.0784313725490196,
+                      "b": 0.0784313725490196,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokes": [],
+                "effects": [],
+                "children": [
+                  {
+                    "id": "1:24",
+                    "name": "새 자산 등록",
+                    "type": "TEXT",
+                    "characters": "새 자산 등록",
+                    "absoluteBoundingBox": {
+                      "x": 1032,
+                      "y": 432,
+                      "width": 326,
+                      "height": 22.5
+                    },
+                    "fills": [
+                      {
+                        "blendMode": "NORMAL",
+                        "type": "SOLID",
+                        "color": {
+                          "r": 1.0,
+                          "g": 1.0,
+                          "b": 1.0,
+                          "a": 1
+                        }
+                      }
+                    ],
+                    "style": {
+                      "fontFamily": "Pretendard",
+                      "fontPostScriptName": "Pretendard-SemiBold",
+                      "fontWeight": 600,
+                      "fontSize": 15,
+                      "lineHeightPx": 22.5,
+                      "lineHeightUnit": "PIXELS",
+                      "letterSpacing": 0
+                    }
+                  }
+                ],
+                "cornerRadius": 16,
+                "layoutMode": "HORIZONTAL",
+                "paddingLeft": 16,
+                "paddingRight": 16,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "itemSpacing": 0,
+                "componentId": "c2"
+              }
+            ]
+          },
+          {
+            "id": "1:45",
+            "name": "screen/운영자 검수 화면",
+            "type": "FRAME",
+            "absoluteBoundingBox": {
+              "x": 1500,
+              "y": 0,
+              "width": 390,
+              "height": 844
+            },
+            "fills": [
+              {
+                "blendMode": "NORMAL",
+                "type": "SOLID",
+                "color": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1
+                }
+              }
+            ],
+            "strokes": [],
+            "effects": [],
+            "children": [
+              {
+                "id": "1:35",
+                "name": "title",
+                "type": "TEXT",
+                "characters": "판매 신청 검수",
+                "absoluteBoundingBox": {
+                  "x": 1516,
+                  "y": 64,
+                  "width": 358,
+                  "height": 36.4
+                },
+                "fills": [
+                  {
+                    "blendMode": "NORMAL",
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.0784313725490196,
+                      "g": 0.0784313725490196,
+                      "b": 0.0784313725490196,
+                      "a": 1
+                    }
+                  }
+                ],
+                "style": {
+                  "fontFamily": "Pretendard",
+                  "fontPostScriptName": "Pretendard-Bold",
+                  "fontWeight": 700,
+                  "fontSize": 28,
+                  "lineHeightPx": 36.4,
+                  "lineHeightUnit": "PIXELS",
+                  "letterSpacing": 0
+                }
+              },
+              {
+                "id": "1:36",
+                "name": "sale-status",
+                "type": "TEXT",
+                "characters": "검수 대기",
+                "absoluteBoundingBox": {
+                  "x": 1516,
+                  "y": 112,
+                  "width": 358,
+                  "height": 16.8
+                },
+                "fills": [
+                  {
+                    "blendMode": "NORMAL",
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.4392156862745098,
+                      "g": 0.4392156862745098,
+                      "b": 0.4392156862745098,
+                      "a": 1
+                    }
+                  }
+                ],
+                "style": {
+                  "fontFamily": "Pretendard",
+                  "fontPostScriptName": "Pretendard-Regular",
+                  "fontWeight": 400,
+                  "fontSize": 12,
+                  "lineHeightPx": 16.799999999999997,
+                  "lineHeightUnit": "PIXELS",
+                  "letterSpacing": 0
+                }
+              },
+              {
+                "id": "1:37",
+                "name": "review-checklist",
+                "type": "INSTANCE",
+                "absoluteBoundingBox": {
+                  "x": 1516,
+                  "y": 140,
+                  "width": 358,
+                  "height": 330
+                },
+                "fills": [
+                  {
+                    "blendMode": "NORMAL",
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.9529411764705882,
+                      "g": 0.9529411764705882,
+                      "b": 0.9529411764705882,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokes": [],
+                "effects": [],
+                "children": [
+                  {
+                    "id": "1:27",
+                    "name": "실제 업무에 써본 것",
+                    "type": "TEXT",
+                    "characters": "실제 업무에 써본 것",
+                    "absoluteBoundingBox": {
+                      "x": 1540,
+                      "y": 164,
+                      "width": 310,
+                      "height": 22.5
+                    },
+                    "fills": [
+                      {
+                        "blendMode": "NORMAL",
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.0784313725490196,
+                          "g": 0.0784313725490196,
+                          "b": 0.0784313725490196,
+                          "a": 1
+                        }
+                      }
+                    ],
+                    "style": {
+                      "fontFamily": "Pretendard",
+                      "fontPostScriptName": "Pretendard-Regular",
+                      "fontWeight": 400,
+                      "fontSize": 15,
+                      "lineHeightPx": 22.5,
+                      "lineHeightUnit": "PIXELS",
+                      "letterSpacing": 0
+                    }
+                  },
+                  {
+                    "id": "1:28",
+                    "name": "결과 예시가 있는 것",
+                    "type": "TEXT",
+                    "characters": "결과 예시가 있는 것",
+                    "absoluteBoundingBox": {
+                      "x": 1540,
+                      "y": 198,
+                      "width": 310,
+                      "height": 22.5
+                    },
+                    "fills": [
+                      {
+                        "blendMode": "NORMAL",
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.0784313725490196,
+                          "g": 0.0784313725490196,
+                          "b": 0.0784313725490196,
+                          "a": 1
+                        }
+                      }
+                    ],
+                    "style": {
+                      "fontFamily": "Pretendard",
+                      "fontPostScriptName": "Pretendard-Regular",
+                      "fontWeight": 400,
+                      "fontSize": 15,
+                      "lineHeightPx": 22.5,
+                      "lineHeightUnit": "PIXELS",
+                      "letterSpacing": 0
+                    }
+                  },
+                  {
+                    "id": "1:29",
+                    "name": "사용 방법이 명확한 것",
+                    "type": "TEXT",
+                    "characters": "사용 방법이 명확한 것",
+                    "absoluteBoundingBox": {
+                      "x": 1540,
+                      "y": 232,
+                      "width": 310,
+                      "height": 22.5
+                    },
+                    "fills": [
+                      {
+                        "blendMode": "NORMAL",
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.0784313725490196,
+                          "g": 0.0784313725490196,
+                          "b": 0.0784313725490196,
+                          "a": 1
+                        }
+                      }
+                    ],
+                    "style": {
+                      "fontFamily": "Pretendard",
+                      "fontPostScriptName": "Pretendard-Regular",
+                      "fontWeight": 400,
+                      "fontSize": 15,
+                      "lineHeightPx": 22.5,
+                      "lineHeightUnit": "PIXELS",
+                      "letterSpacing": 0
+                    }
+                  },
+                  {
+                    "id": "1:30",
+                    "name": "초보자가 따라할 수 있는 것",
+                    "type": "TEXT",
+                    "characters": "초보자가 따라할 수 있는 것",
+                    "absoluteBoundingBox": {
+                      "x": 1540,
+                      "y": 266,
+                      "width": 310,
+                      "height": 22.5
+                    },
+                    "fills": [
+                      {
+                        "blendMode": "NORMAL",
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.0784313725490196,
+                          "g": 0.0784313725490196,
+                          "b": 0.0784313725490196,
+                          "a": 1
+                        }
+                      }
+                    ],
+                    "style": {
+                      "fontFamily": "Pretendard",
+                      "fontPostScriptName": "Pretendard-Regular",
+                      "fontWeight": 400,
+                      "fontSize": 15,
+                      "lineHeightPx": 22.5,
+                      "lineHeightUnit": "PIXELS",
+                      "letterSpacing": 0
+                    }
+                  },
+                  {
+                    "id": "1:31",
+                    "name": "특정 툴/버전/환경 조건이 적혀 있는 것",
+                    "type": "TEXT",
+                    "characters": "특정 툴/버전/환경 조건이 적혀 있는 것",
+                    "absoluteBoundingBox": {
+                      "x": 1540,
+                      "y": 300,
+                      "width": 310,
+                      "height": 22.5
+                    },
+                    "fills": [
+                      {
+                        "blendMode": "NORMAL",
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.0784313725490196,
+                          "g": 0.0784313725490196,
+                          "b": 0.0784313725490196,
+                          "a": 1
+                        }
+                      }
+                    ],
+                    "style": {
+                      "fontFamily": "Pretendard",
+                      "fontPostScriptName": "Pretendard-Regular",
+                      "fontWeight": 400,
+                      "fontSize": 15,
+                      "lineHeightPx": 22.5,
+                      "lineHeightUnit": "PIXELS",
+                      "letterSpacing": 0
+                    }
+                  },
+                  {
+                    "id": "1:32",
+                    "name": "개인정보/고객정보/회사기밀이 없는 것",
+                    "type": "TEXT",
+                    "characters": "개인정보/고객정보/회사기밀이 없는 것",
+                    "absoluteBoundingBox": {
+                      "x": 1540,
+                      "y": 334,
+                      "width": 310,
+                      "height": 22.5
+                    },
+                    "fills": [
+                      {
+                        "blendMode": "NORMAL",
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.0784313725490196,
+                          "g": 0.0784313725490196,
+                          "b": 0.0784313725490196,
+                          "a": 1
+                        }
+                      }
+                    ],
+                    "style": {
+                      "fontFamily": "Pretendard",
+                      "fontPostScriptName": "Pretendard-Regular",
+                      "fontWeight": 400,
+                      "fontSize": 15,
+                      "lineHeightPx": 22.5,
+                      "lineHeightUnit": "PIXELS",
+                      "letterSpacing": 0
+                    }
+                  },
+                  {
+                    "id": "1:33",
+                    "name": "저작권 문제가 없는 것",
+                    "type": "TEXT",
+                    "characters": "저작권 문제가 없는 것",
+                    "absoluteBoundingBox": {
+                      "x": 1540,
+                      "y": 368,
+                      "width": 310,
+                      "height": 22.5
+                    },
+                    "fills": [
+                      {
+                        "blendMode": "NORMAL",
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.0784313725490196,
+                          "g": 0.0784313725490196,
+                          "b": 0.0784313725490196,
+                          "a": 1
+                        }
+                      }
+                    ],
+                    "style": {
+                      "fontFamily": "Pretendard",
+                      "fontPostScriptName": "Pretendard-Regular",
+                      "fontWeight": 400,
+                      "fontSize": 15,
+                      "lineHeightPx": 22.5,
+                      "lineHeightUnit": "PIXELS",
+                      "letterSpacing": 0
+                    }
+                  },
+                  {
+                    "id": "1:34",
+                    "name": "구매자가 바로 써볼 수 있는 것",
+                    "type": "TEXT",
+                    "characters": "구매자가 바로 써볼 수 있는 것",
+                    "absoluteBoundingBox": {
+                      "x": 1540,
+                      "y": 402,
+                      "width": 310,
+                      "height": 22.5
+                    },
+                    "fills": [
+                      {
+                        "blendMode": "NORMAL",
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.0784313725490196,
+                          "g": 0.0784313725490196,
+                          "b": 0.0784313725490196,
+                          "a": 1
+                        }
+                      }
+                    ],
+                    "style": {
+                      "fontFamily": "Pretendard",
+                      "fontPostScriptName": "Pretendard-Regular",
+                      "fontWeight": 400,
+                      "fontSize": 15,
+                      "lineHeightPx": 22.5,
+                      "lineHeightUnit": "PIXELS",
+                      "letterSpacing": 0
+                    }
+                  }
+                ],
+                "cornerRadius": 24,
+                "layoutMode": "VERTICAL",
+                "paddingLeft": 24,
+                "paddingRight": 24,
+                "paddingTop": 24,
+                "paddingBottom": 24,
+                "itemSpacing": 12,
+                "componentId": "c3"
+              },
+              {
+                "id": "1:44",
+                "name": "review-actions",
+                "type": "FRAME",
+                "absoluteBoundingBox": {
+                  "x": 1516,
+                  "y": 494,
+                  "width": 358,
+                  "height": 48
+                },
+                "fills": [],
+                "strokes": [],
+                "effects": [],
+                "children": [
+                  {
+                    "id": "1:39",
+                    "name": "button-primary",
+                    "type": "INSTANCE",
+                    "absoluteBoundingBox": {
+                      "x": 1516,
+                      "y": 494,
+                      "width": 114,
+                      "height": 48
+                    },
+                    "fills": [
+                      {
+                        "blendMode": "NORMAL",
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.0784313725490196,
+                          "g": 0.0784313725490196,
+                          "b": 0.0784313725490196,
+                          "a": 1
+                        }
+                      }
+                    ],
+                    "strokes": [],
+                    "effects": [],
+                    "children": [
+                      {
+                        "id": "1:38",
+                        "name": "승인",
+                        "type": "TEXT",
+                        "characters": "승인",
+                        "absoluteBoundingBox": {
+                          "x": 1532,
+                          "y": 506,
+                          "width": 82,
+                          "height": 22.5
+                        },
+                        "fills": [
+                          {
+                            "blendMode": "NORMAL",
+                            "type": "SOLID",
+                            "color": {
+                              "r": 1.0,
+                              "g": 1.0,
+                              "b": 1.0,
+                              "a": 1
+                            }
+                          }
+                        ],
+                        "style": {
+                          "fontFamily": "Pretendard",
+                          "fontPostScriptName": "Pretendard-SemiBold",
+                          "fontWeight": 600,
+                          "fontSize": 15,
+                          "lineHeightPx": 22.5,
+                          "lineHeightUnit": "PIXELS",
+                          "letterSpacing": 0
+                        }
+                      }
+                    ],
+                    "cornerRadius": 9999,
+                    "layoutMode": "HORIZONTAL",
+                    "paddingLeft": 16,
+                    "paddingRight": 16,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "itemSpacing": 0,
+                    "componentId": "c2"
+                  },
+                  {
+                    "id": "1:41",
+                    "name": "button-outline",
+                    "type": "INSTANCE",
+                    "absoluteBoundingBox": {
+                      "x": 1638,
+                      "y": 494,
+                      "width": 114,
+                      "height": 48
+                    },
+                    "fills": [
+                      {
+                        "blendMode": "NORMAL",
+                        "type": "SOLID",
+                        "color": {
+                          "r": 1.0,
+                          "g": 1.0,
+                          "b": 1.0,
+                          "a": 1
+                        }
+                      }
+                    ],
+                    "strokes": [
+                      {
+                        "blendMode": "NORMAL",
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.8784313725490196,
+                          "g": 0.8784313725490196,
+                          "b": 0.8784313725490196,
+                          "a": 1
+                        }
+                      }
+                    ],
+                    "effects": [],
+                    "children": [
+                      {
+                        "id": "1:40",
+                        "name": "수정 요청",
+                        "type": "TEXT",
+                        "characters": "수정 요청",
+                        "absoluteBoundingBox": {
+                          "x": 1654,
+                          "y": 506,
+                          "width": 82,
+                          "height": 22.5
+                        },
+                        "fills": [
+                          {
+                            "blendMode": "NORMAL",
+                            "type": "SOLID",
+                            "color": {
+                              "r": 0.0784313725490196,
+                              "g": 0.0784313725490196,
+                              "b": 0.0784313725490196,
+                              "a": 1
+                            }
+                          }
+                        ],
+                        "style": {
+                          "fontFamily": "Pretendard",
+                          "fontPostScriptName": "Pretendard-SemiBold",
+                          "fontWeight": 600,
+                          "fontSize": 15,
+                          "lineHeightPx": 22.5,
+                          "lineHeightUnit": "PIXELS",
+                          "letterSpacing": 0
+                        }
+                      }
+                    ],
+                    "cornerRadius": 9999,
+                    "layoutMode": "HORIZONTAL",
+                    "paddingLeft": 16,
+                    "paddingRight": 16,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "itemSpacing": 0,
+                    "strokeWeight": 1,
+                    "componentId": "c4"
+                  },
+                  {
+                    "id": "1:43",
+                    "name": "button-outline",
+                    "type": "INSTANCE",
+                    "absoluteBoundingBox": {
+                      "x": 1760,
+                      "y": 494,
+                      "width": 114,
+                      "height": 48
+                    },
+                    "fills": [
+                      {
+                        "blendMode": "NORMAL",
+                        "type": "SOLID",
+                        "color": {
+                          "r": 1.0,
+                          "g": 1.0,
+                          "b": 1.0,
+                          "a": 1
+                        }
+                      }
+                    ],
+                    "strokes": [
+                      {
+                        "blendMode": "NORMAL",
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.8784313725490196,
+                          "g": 0.8784313725490196,
+                          "b": 0.8784313725490196,
+                          "a": 1
+                        }
+                      }
+                    ],
+                    "effects": [],
+                    "children": [
+                      {
+                        "id": "1:42",
+                        "name": "반려",
+                        "type": "TEXT",
+                        "characters": "반려",
+                        "absoluteBoundingBox": {
+                          "x": 1776,
+                          "y": 506,
+                          "width": 82,
+                          "height": 22.5
+                        },
+                        "fills": [
+                          {
+                            "blendMode": "NORMAL",
+                            "type": "SOLID",
+                            "color": {
+                              "r": 0.0784313725490196,
+                              "g": 0.0784313725490196,
+                              "b": 0.0784313725490196,
+                              "a": 1
+                            }
+                          }
+                        ],
+                        "style": {
+                          "fontFamily": "Pretendard",
+                          "fontPostScriptName": "Pretendard-SemiBold",
+                          "fontWeight": 600,
+                          "fontSize": 15,
+                          "lineHeightPx": 22.5,
+                          "lineHeightUnit": "PIXELS",
+                          "letterSpacing": 0
+                        }
+                      }
+                    ],
+                    "cornerRadius": 9999,
+                    "layoutMode": "HORIZONTAL",
+                    "paddingLeft": 16,
+                    "paddingRight": 16,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "itemSpacing": 0,
+                    "strokeWeight": 1,
+                    "componentId": "c4"
+                  }
+                ],
+                "layoutMode": "HORIZONTAL",
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "itemSpacing": 8
+              }
+            ]
+          }
+        ]
+      },
+      "components": {
+        "c1": {
+          "key": "k1",
+          "name": "asset-card"
+        },
+        "c2": {
+          "key": "k2",
+          "name": "button-primary"
+        },
+        "c3": {
+          "key": "k3",
+          "name": "review-checklist"
+        },
+        "c4": {
+          "key": "k4",
+          "name": "button-outline"
+        },
+        "c5": {
+          "key": "k5",
+          "name": "text-input"
+        }
+      },
+      "componentSets": {}
+    }
+  }
+}

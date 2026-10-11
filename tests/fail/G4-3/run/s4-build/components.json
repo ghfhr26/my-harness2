@@ -1,0 +1,10 @@
+{
+  "components": [
+    "asset-card",
+    "button-primary",
+    "review-checklist",
+    "button-outline",
+    "text-input",
+    "mystery-card"
+  ]
+}

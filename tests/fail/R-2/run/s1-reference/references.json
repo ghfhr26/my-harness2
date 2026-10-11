@@ -1,0 +1,40 @@
+{
+  "references": [
+    {
+      "id": "R-01",
+      "screen": "내 자산",
+      "app": "토스",
+      "url": "https://uibowl.io/ui/1"
+    },
+    {
+      "id": "R-02",
+      "screen": "내 자산",
+      "app": "당근",
+      "url": "https://uibowl.io/ui/2"
+    },
+    {
+      "id": "R-03",
+      "screen": "내 자산",
+      "app": "Notion",
+      "url": "https://uibowl.io/ui/3"
+    },
+    {
+      "id": "R-04",
+      "screen": "운영자 검수 화면",
+      "app": "토스",
+      "url": "https://uibowl.io/ui/4"
+    },
+    {
+      "id": "R-05",
+      "screen": "운영자 검수 화면",
+      "app": "당근",
+      "url": "https://uibowl.io/ui/5"
+    },
+    {
+      "id": "R-06",
+      "screen": "운영자 검수 화면",
+      "app": "Notion",
+      "url": "https://uibowl.io/ui/6"
+    }
+  ]
+}

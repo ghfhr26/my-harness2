@@ -1,0 +1,28 @@
+{
+  "run": "run",
+  "created": "2026-10-11T10:00:00",
+  "stage": "S5",
+  "status": "running",
+  "gates": {},
+  "retries": {},
+  "s5_returns": 0,
+  "violation_counts": {},
+  "confirm_history": [],
+  "hashes": {
+    "S1": {
+      "adopt.md": "03889071856efd574bf9b501ee2d8b83646334038c5236b82b9d020d61f0a89e",
+      "references.json": "dbd213baa578a4bac1174294c4ad9f56337818d78bc5f43f07f5dab31d91c7bc"
+    },
+    "S2": {
+      "screen-spec.md": "37d907f713373c5a6a8e4a54a9a4ac4912d48ef57c7b6b31e4fc6bd6ab6e0f74"
+    },
+    "S3": {
+      "approval.json": "95c6d5037e9265a8d5767da4603c4631ed26c8b22d805180e931fd6be0131eb7"
+    },
+    "S4": {
+      "components.json": "7e0d5d9d5d534624dce604f777618365b2b7cf88679a04db1d9f2baba876b3d8",
+      "tokens.json": "20296bdf734a5ed05c7d853e5eddb1b40485dca2959300e62345c32c426fa62b"
+    }
+  },
+  "lock": "9b5b459001fcb8442ba1d7a36d3596989beb54984d7f9046bc0397889a0ec8c4"
+}

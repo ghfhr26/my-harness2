@@ -1,0 +1,14 @@
+{
+  "name": "fixture",
+  "document": {
+    "id": "0:0",
+    "type": "DOCUMENT",
+    "children": [
+      {
+        "id": "0:1",
+        "name": "run",
+        "type": "CANVAS"
+      }
+    ]
+  }
+}

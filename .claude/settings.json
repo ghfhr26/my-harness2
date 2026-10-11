@@ -1,0 +1,18 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"$CLAUDE_PROJECT_DIR/scripts/guard.py\"",
+            "shell": "bash",
+            "timeout": 15,
+            "statusMessage": "하네스 폴더 제한 확인"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,2 @@
+# 테스트용 금지어. 실제 목록은 rules/banned-terms.txt
+카카오뱅크

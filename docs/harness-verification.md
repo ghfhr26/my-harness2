@@ -5,7 +5,7 @@
 - `tests/fail/<규칙 ID>/`: 그 규칙 하나만 어긴 샘플. 규칙 ID마다 1개 이상. 같은 규칙에 여러 개면 `<규칙 ID>--<설명>`.
 - 샘플의 `figma/` 폴더는 Figma REST API 응답과 같은 모양이다. 검증은 실제 판정과 같은 코드로 이 응답을 읽는다.
 - 샘플은 `tests/make_fixtures.py`가 만든다. `test_gates.py`가 매번 다시 만들어 현재 `design.md`와 맞춘다.
-- 서체 대체 샘플: `tests/fail/T-1--font-fallback/` (Pretendard 대신 Inter로 바뀐 텍스트).
+- 서체 대체 샘플: `tests/fail/T-1--font-fallback/` (PNoto Sans KR 대신 Inter로 바뀐 텍스트).
 - `scripts/test_gates.py`가 센다:
   - 정상 세트에서 모든 규칙의 위반이 0건
   - 위반 샘플마다 해당 규칙 ID로 정확히 1건, 다른 규칙 ID로 0건

@@ -24,7 +24,7 @@ from harness_lib import ROOT, STAGE_DIRS, lock_hash, read_json, sha_dir, write_j
 RULES = read_json(ROOT / "rules" / "rules.json")
 COLOR = RULES["colors"]
 TYPO = RULES["typography"]
-WEIGHT_NAME = {300: "Light", 400: "Regular", 600: "SemiBold", 700: "Bold"}
+WEIGHT_NAME = {300: "Light", 400: "Regular", 500: "Medium", 700: "Bold"}
 SCREENS = ["내 자산", "운영자 검수 화면"]
 APPS = ["토스", "당근", "Notion"]
 _ids = itertools.count(10)
@@ -50,7 +50,7 @@ def text(chars, token, x, y, w, color=None, name=None):
         "absoluteBoundingBox": rect(x, y, w, round(t["size"] * t["lineHeight"], 2)),
         "fills": [solid(color or COLOR["ink"])],
         "style": {
-            "fontFamily": "Pretendard", "fontPostScriptName": f"Pretendard-{WEIGHT_NAME[t['weight']]}",
+            "fontFamily": "Noto Sans KR", "fontPostScriptName": f"Noto Sans KR-{WEIGHT_NAME[t['weight']]}",
             "fontWeight": t["weight"], "fontSize": t["size"],
             "lineHeightPx": t["size"] * t["lineHeight"], "lineHeightUnit": "PIXELS", "letterSpacing": 0,
         },
@@ -290,7 +290,7 @@ def m_c2(S):
 
 
 def m_t1_fallback(S):
-    # Pretendard를 불러오지 못해 Figma 기본 서체로 바뀐 경우
+    # Noto Sans KR를 불러오지 못해 Figma 기본 서체로 바뀐 경우
     n = find_all_text(node(S, MINE, "asset-card"))[0]
     n["style"].update(fontFamily="Inter", fontPostScriptName="Inter-" + n["style"]["fontPostScriptName"].split("-")[1])
 

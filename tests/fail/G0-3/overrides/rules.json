@@ -1,6 +1,6 @@
 {
   "design_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-  "font_family": "Pretendard",
+  "font_family": "Noto Sans KR",
   "colors": {
     "ink": "#141414",
     "accent": "#0066ff",
@@ -51,7 +51,7 @@
     },
     "title": {
       "size": 17,
-      "weight": 600,
+      "weight": 500,
       "lineHeight": 1.4,
       "letterSpacing": 0.0
     },
@@ -75,13 +75,13 @@
     },
     "link": {
       "size": 15,
-      "weight": 600,
+      "weight": 500,
       "lineHeight": 1.5,
       "letterSpacing": 0.0
     },
     "label": {
       "size": 12,
-      "weight": 600,
+      "weight": 500,
       "lineHeight": 1.4,
       "letterSpacing": 0.0
     },

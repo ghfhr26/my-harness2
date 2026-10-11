@@ -1,6 +1,6 @@
 {
-  "design_sha256": "2c56c5b24600377c1e1956285b34434fac14beb8b3545d8332f2edd11f86718c",
-  "font_family": "Pretendard",
+  "design_sha256": "8d8936c1e79796249495179ab4b0add73b453425ec4b9d523a1e5acb208308ce",
+  "font_family": "Noto Sans KR",
   "colors": {
     "ink": "#141414",
     "accent": "#0066ff",
@@ -51,7 +51,7 @@
     },
     "title": {
       "size": 17,
-      "weight": 600,
+      "weight": 500,
       "lineHeight": 1.4,
       "letterSpacing": 0.0
     },
@@ -75,13 +75,13 @@
     },
     "link": {
       "size": 15,
-      "weight": 600,
+      "weight": 500,
       "lineHeight": 1.5,
       "letterSpacing": 0.0
     },
     "label": {
       "size": 12,
-      "weight": 600,
+      "weight": 500,
       "lineHeight": 1.4,
       "letterSpacing": 0.0
     },

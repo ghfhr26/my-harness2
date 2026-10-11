@@ -107,8 +107,8 @@
                   }
                 ],
                 "style": {
-                  "fontFamily": "Pretendard",
-                  "fontPostScriptName": "Pretendard-Bold",
+                  "fontFamily": "Noto Sans KR",
+                  "fontPostScriptName": "Noto Sans KR-Bold",
                   "fontWeight": 700,
                   "fontSize": 28,
                   "lineHeightPx": 36.4,
@@ -190,9 +190,9 @@
                           }
                         ],
                         "style": {
-                          "fontFamily": "Pretendard",
-                          "fontPostScriptName": "Pretendard-SemiBold",
-                          "fontWeight": 600,
+                          "fontFamily": "Noto Sans KR",
+                          "fontPostScriptName": "Noto Sans KR-Medium",
+                          "fontWeight": 500,
                           "fontSize": 15,
                           "lineHeightPx": 22.5,
                           "lineHeightUnit": "PIXELS",
@@ -246,9 +246,9 @@
                           }
                         ],
                         "style": {
-                          "fontFamily": "Pretendard",
-                          "fontPostScriptName": "Pretendard-SemiBold",
-                          "fontWeight": 600,
+                          "fontFamily": "Noto Sans KR",
+                          "fontPostScriptName": "Noto Sans KR-Medium",
+                          "fontWeight": 500,
                           "fontSize": 15,
                           "lineHeightPx": 22.5,
                           "lineHeightUnit": "PIXELS",
@@ -322,8 +322,8 @@
                       }
                     ],
                     "style": {
-                      "fontFamily": "Pretendard",
-                      "fontPostScriptName": "Pretendard-Regular",
+                      "fontFamily": "Noto Sans KR",
+                      "fontPostScriptName": "Noto Sans KR-Regular",
                       "fontWeight": 400,
                       "fontSize": 15,
                       "lineHeightPx": 22.5,
@@ -401,9 +401,9 @@
                       }
                     ],
                     "style": {
-                      "fontFamily": "Pretendard",
-                      "fontPostScriptName": "Pretendard-SemiBold",
-                      "fontWeight": 600,
+                      "fontFamily": "Noto Sans KR",
+                      "fontPostScriptName": "Noto Sans KR-Medium",
+                      "fontWeight": 500,
                       "fontSize": 17,
                       "lineHeightPx": 23.799999999999997,
                       "lineHeightUnit": "PIXELS",
@@ -434,9 +434,9 @@
                       }
                     ],
                     "style": {
-                      "fontFamily": "Pretendard",
-                      "fontPostScriptName": "Pretendard-SemiBold",
-                      "fontWeight": 600,
+                      "fontFamily": "Noto Sans KR",
+                      "fontPostScriptName": "Noto Sans KR-Medium",
+                      "fontWeight": 500,
                       "fontSize": 12,
                       "lineHeightPx": 16.799999999999997,
                       "lineHeightUnit": "PIXELS",
@@ -467,8 +467,8 @@
                       }
                     ],
                     "style": {
-                      "fontFamily": "Pretendard",
-                      "fontPostScriptName": "Pretendard-Regular",
+                      "fontFamily": "Noto Sans KR",
+                      "fontPostScriptName": "Noto Sans KR-Regular",
                       "fontWeight": 400,
                       "fontSize": 12,
                       "lineHeightPx": 16.799999999999997,
@@ -536,9 +536,9 @@
                       }
                     ],
                     "style": {
-                      "fontFamily": "Pretendard",
-                      "fontPostScriptName": "Pretendard-SemiBold",
-                      "fontWeight": 600,
+                      "fontFamily": "Noto Sans KR",
+                      "fontPostScriptName": "Noto Sans KR-Medium",
+                      "fontWeight": 500,
                       "fontSize": 15,
                       "lineHeightPx": 22.5,
                       "lineHeightUnit": "PIXELS",
@@ -606,8 +606,8 @@
                   }
                 ],
                 "style": {
-                  "fontFamily": "Pretendard",
-                  "fontPostScriptName": "Pretendard-Bold",
+                  "fontFamily": "Noto Sans KR",
+                  "fontPostScriptName": "Noto Sans KR-Bold",
                   "fontWeight": 700,
                   "fontSize": 28,
                   "lineHeightPx": 36.4,
@@ -639,8 +639,8 @@
                   }
                 ],
                 "style": {
-                  "fontFamily": "Pretendard",
-                  "fontPostScriptName": "Pretendard-Regular",
+                  "fontFamily": "Noto Sans KR",
+                  "fontPostScriptName": "Noto Sans KR-Regular",
                   "fontWeight": 400,
                   "fontSize": 12,
                   "lineHeightPx": 16.799999999999997,
@@ -697,8 +697,8 @@
                       }
                     ],
                     "style": {
-                      "fontFamily": "Pretendard",
-                      "fontPostScriptName": "Pretendard-Regular",
+                      "fontFamily": "Noto Sans KR",
+                      "fontPostScriptName": "Noto Sans KR-Regular",
                       "fontWeight": 400,
                       "fontSize": 15,
                       "lineHeightPx": 22.5,
@@ -730,8 +730,8 @@
                       }
                     ],
                     "style": {
-                      "fontFamily": "Pretendard",
-                      "fontPostScriptName": "Pretendard-Regular",
+                      "fontFamily": "Noto Sans KR",
+                      "fontPostScriptName": "Noto Sans KR-Regular",
                       "fontWeight": 400,
                       "fontSize": 15,
                       "lineHeightPx": 22.5,
@@ -763,8 +763,8 @@
                       }
                     ],
                     "style": {
-                      "fontFamily": "Pretendard",
-                      "fontPostScriptName": "Pretendard-Regular",
+                      "fontFamily": "Noto Sans KR",
+                      "fontPostScriptName": "Noto Sans KR-Regular",
                       "fontWeight": 400,
                       "fontSize": 15,
                       "lineHeightPx": 22.5,
@@ -796,8 +796,8 @@
                       }
                     ],
                     "style": {
-                      "fontFamily": "Pretendard",
-                      "fontPostScriptName": "Pretendard-Regular",
+                      "fontFamily": "Noto Sans KR",
+                      "fontPostScriptName": "Noto Sans KR-Regular",
                       "fontWeight": 400,
                       "fontSize": 15,
                       "lineHeightPx": 22.5,
@@ -829,8 +829,8 @@
                       }
                     ],
                     "style": {
-                      "fontFamily": "Pretendard",
-                      "fontPostScriptName": "Pretendard-Regular",
+                      "fontFamily": "Noto Sans KR",
+                      "fontPostScriptName": "Noto Sans KR-Regular",
                       "fontWeight": 400,
                       "fontSize": 15,
                       "lineHeightPx": 22.5,
@@ -862,8 +862,8 @@
                       }
                     ],
                     "style": {
-                      "fontFamily": "Pretendard",
-                      "fontPostScriptName": "Pretendard-Regular",
+                      "fontFamily": "Noto Sans KR",
+                      "fontPostScriptName": "Noto Sans KR-Regular",
                       "fontWeight": 400,
                       "fontSize": 15,
                       "lineHeightPx": 22.5,
@@ -895,8 +895,8 @@
                       }
                     ],
                     "style": {
-                      "fontFamily": "Pretendard",
-                      "fontPostScriptName": "Pretendard-Regular",
+                      "fontFamily": "Noto Sans KR",
+                      "fontPostScriptName": "Noto Sans KR-Regular",
                       "fontWeight": 400,
                       "fontSize": 15,
                       "lineHeightPx": 22.5,
@@ -928,8 +928,8 @@
                       }
                     ],
                     "style": {
-                      "fontFamily": "Pretendard",
-                      "fontPostScriptName": "Pretendard-Regular",
+                      "fontFamily": "Noto Sans KR",
+                      "fontPostScriptName": "Noto Sans KR-Regular",
                       "fontWeight": 400,
                       "fontSize": 15,
                       "lineHeightPx": 22.5,
@@ -1010,9 +1010,9 @@
                           }
                         ],
                         "style": {
-                          "fontFamily": "Pretendard",
-                          "fontPostScriptName": "Pretendard-SemiBold",
-                          "fontWeight": 600,
+                          "fontFamily": "Noto Sans KR",
+                          "fontPostScriptName": "Noto Sans KR-Medium",
+                          "fontWeight": 500,
                           "fontSize": 15,
                           "lineHeightPx": 22.5,
                           "lineHeightUnit": "PIXELS",
@@ -1089,9 +1089,9 @@
                           }
                         ],
                         "style": {
-                          "fontFamily": "Pretendard",
-                          "fontPostScriptName": "Pretendard-SemiBold",
-                          "fontWeight": 600,
+                          "fontFamily": "Noto Sans KR",
+                          "fontPostScriptName": "Noto Sans KR-Medium",
+                          "fontWeight": 500,
                           "fontSize": 15,
                           "lineHeightPx": 22.5,
                           "lineHeightUnit": "PIXELS",
@@ -1169,9 +1169,9 @@
                           }
                         ],
                         "style": {
-                          "fontFamily": "Pretendard",
-                          "fontPostScriptName": "Pretendard-SemiBold",
-                          "fontWeight": 600,
+                          "fontFamily": "Noto Sans KR",
+                          "fontPostScriptName": "Noto Sans KR-Medium",
+                          "fontWeight": 500,
                           "fontSize": 15,
                           "lineHeightPx": 22.5,
                           "lineHeightUnit": "PIXELS",

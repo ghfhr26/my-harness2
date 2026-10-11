@@ -2,7 +2,7 @@
 
 Huddling (허들링) is an AI practice lab and asset library — learning materials, skill/prompt cards, and member-made assets — and its own interface is engineered to get out of the way. The system is strictly monochrome: near-black ink (`{colors.ink}` — #141414) on a pure white canvas (`{colors.canvas}`), with structure carried by a ladder of barely-perceptible neutral tints rather than by shadows or color. The learning content, skill cards, example outputs, and member assets the app exists to show are the only saturated elements on any page — the chrome frames them the way a gallery wall frames paintings.
 
-The geometry does the brand work that color refuses to do. Every interactive element is a stadium pill (`{rounded.full}`): the floating navigation bar, every button, the segmented billing toggle, the overlay badges. Containers sit at a calm `{rounded.md}` (24px), media tiles at `{rounded.sm}` (16px), and app icons render as iOS-style squircles at 30% corner radius. Type is set in Pretendard with strong weight contrast — Bold 700 for every heading, Regular 400 for text, Light 300 for lead subtitles — which gives the monochrome pages a strong typographic voice without a single decorative flourish.
+The geometry does the brand work that color refuses to do. Every interactive element is a stadium pill (`{rounded.full}`): the floating navigation bar, every button, the segmented billing toggle, the overlay badges. Containers sit at a calm `{rounded.md}` (24px), media tiles at `{rounded.sm}` (16px), and app icons render as iOS-style squircles at 30% corner radius. Type is set in Noto Sans KR with strong weight contrast — Bold 700 for every heading, Regular 400 for text, Light 300 for lead subtitles — which gives the monochrome pages a strong typographic voice without a single decorative flourish.
 
 One color is allowed to interrupt: an electric blue accent (`{colors.accent}` — #0066ff), used exclusively for commercial signals — the "Popular" plan badge and the yearly-savings callout on pricing. Its scarcity is the point; when blue appears, it is asking for a decision.
 
@@ -11,7 +11,7 @@ One color is allowed to interrupt: an electric blue accent (`{colors.accent}` �
 - Gallery-white monochrome palette — `{colors.ink}` on `{colors.canvas}`, zero brand chroma outside the single `{colors.accent}` blue
 - Stadium-pill interaction language: nav bar, buttons, toggles, and badges all at `{rounded.full}`
 - Shadow-free elevation — hierarchy built from a neutral tint ladder (`{colors.canvas-soft}`, `{colors.field}`, `{colors.hairline}`) and 1px hairlines
-- Pretendard with weight contrast: 700 headings at 1.3–1.35 line-height, 400 body at 1.5, 300 light subtitles
+- Noto Sans KR with weight contrast: 700 headings at 1.3–1.35 line-height, 400 body at 1.5, 300 light subtitles
 - iOS-style squircle icon tiles (30% radius) as a recurring visual motif across library counters and brand marquees
 - Content supplies the color: app screenshots, brand icons, and grayscale curator portraits carry all visual richness
 - Full-bleed near-black `{colors.ink}` footer with rounded top corners closes every page in polarity inversion
@@ -49,7 +49,7 @@ Source pages: home, pricing, awards, signup.
 
 ### Font Family
 
-**Pretendard** — a Korean–Latin neo-grotesque used exclusively, across every screen and every role. On the web it is loaded as **Pretendard Variable**; in Figma use the static weights (Light 300 · Regular 400 · SemiBold 600 · Bold 700). The brand's voice comes from weight contrast: headings at Bold 700, running text at Regular 400, and lead subtitles at a light 300. Fallback stack: `-apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif`.
+**Noto Sans KR** — a Korean–Latin neo-grotesque used exclusively, across every screen and every role. In Figma use the static weights (Light 300 · Regular 400 · Medium 500 · Bold 700). The brand's voice comes from weight contrast: headings at Bold 700, running text at Regular 400, and lead subtitles at a light 300. Fallback stack: `-apple-system, BlinkMacSystemFont, "Apple SD Gothic  Neo", sans-serif`.
 
 Sizes below are set for the mobile baseline frame (390×844). Korean glyphs need more vertical room than Latin, so headings sit at 1.3–1.35 and body text at 1.5.
 
@@ -62,19 +62,19 @@ Sizes below are set for the mobile baseline frame (390×844). Korean glyphs need
 | `{typography.heading-2}` | 24px | 700    | 1.35        | 0              | Section headings on content screens                      |
 | `{typography.heading-3}` | 20px | 700    | 1.35        | 0              | Card-level headlines, auth headings                      |
 | `{typography.heading-4}` | 18px | 700    | 1.35        | 0              | Sub-section headings                                     |
-| `{typography.title}`     | 17px | 600    | 1.4         | 0              | Feature titles, emphasized rows                          |
+| `{typography.title}`     | 17px | 500    | 1.4         | 0              | Feature titles, emphasized rows                          |
 | `{typography.body-lg}`   | 17px | 300    | 1.5         | 0              | Lead paragraphs — the light counterpoint to 700 headings |
 | `{typography.body}`      | 15px | 400    | 1.5         | 0              | Default body copy                                        |
 | `{typography.body-sm}`   | 13px | 400    | 1.5         | 0              | Supporting copy, feature lists, legal text               |
-| `{typography.link}`      | 15px | 600    | 1.5         | 0              | Nav links and button labels                              |
-| `{typography.label}`     | 12px | 600    | 1.4         | 0              | Badge and pill labels                                    |
+| `{typography.link}`      | 15px | 500    | 1.5         | 0              | Nav links and button labels                              |
+| `{typography.label}`     | 12px | 500    | 1.4         | 0              | Badge and pill labels                                    |
 | `{typography.caption}`   | 12px | 400    | 1.4         | 0              | Captions, metadata, form fine print                      |
 
 ### Principles
 
 - **Weight contrast is the drama.** Pairing 700 headings against 300 light subtitles (e.g. 32px display over 17px light lead) creates hierarchy without color or ornament.
 - **Controlled leading.** Headings sit at 1.3–1.35 — tight, but with enough room for Korean glyphs. Body text opens up to 1.5.
-- **Zero letter-spacing everywhere.** Pretendard is trusted at its natural fit; no tracking adjustments at any size.
+- **Zero letter-spacing everywhere.** Noto Sans KR is trusted at its natural fit; no tracking adjustments at any size.
 
 ## Layout
 
@@ -304,7 +304,7 @@ The system is essentially shadow-free: no drop shadows appear on any card, butto
 - Use `{rounded.full}` for every interactive element — a rectangular button does not exist in this system.
 - Build emphasis with the tint ladder: `{colors.canvas-soft}` fill for featured surfaces, `{colors.hairline-soft}` outlines for resting cards.
 - Reserve `{colors.accent}` for commercial signals (featured badges, savings callouts) — one or two blue elements per page at most.
-- Set every heading in Pretendard Bold 700 with line-height 1.3–1.35.
+- Set every heading in Noto Sans KR Bold 700 with line-height 1.3–1.35.
 - Pair Bold 700 headings with 300-weight `{typography.body-lg}` subtitles for hierarchy without color.
 - Render app icons as 30% squircles and portraits in grayscale to keep third-party imagery inside the system.
 - Close pages with the inverse `{colors.ink}` footer, rounded at the top.

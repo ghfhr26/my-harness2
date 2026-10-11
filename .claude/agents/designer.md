@@ -25,7 +25,7 @@ tools: Read, Write, Edit, Glob, Grep, Skill, mcp__plugin_figma_figma__use_figma,
 
 ## 서체
 
-텍스트를 넣기 전에 Pretendard의 필요한 굵기(Light, Regular, SemiBold, Bold)를 불러온다. **불러오지 못하면 다른 서체로 대신하지 말고 그 자리에서 멈춰 보고한다.** Figma가 기본 서체(Inter 등)로 바꿔 넣은 텍스트는 Pretendard처럼 보여도 판정에서 T-1 위반으로 걸리고, 그 상태로 컨펌을 받으면 승인된 시안 전체를 다시 만들어야 한다.
+텍스트를 넣기 전에 Noto Sans KR의 필요한 굵기(Light, Regular, Medium, Bold)를 불러온다. **불러오지 못하면 다른 서체로 대신하지 말고 그 자리에서 멈춰 보고한다.** Figma가 기본 서체(Inter 등)로 바꿔 넣은 텍스트는 Noto Sans KR처럼 보여도 판정에서 T-1 위반으로 걸리고, 그 상태로 컨펌을 받으면 승인된 시안 전체를 다시 만들어야 한다.
 
 ## 디자인 규칙
 

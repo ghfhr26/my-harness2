@@ -1,0 +1,17 @@
+{
+  "components": [
+    "button-primary",
+    "button-outline",
+    "button-pill-soft",
+    "text-input",
+    "filter-chip",
+    "asset-card",
+    "sale-status",
+    "tag-chip",
+    "visibility-select",
+    "file-row",
+    "review-row",
+    "checklist-row",
+    "review-actions"
+  ]
+}

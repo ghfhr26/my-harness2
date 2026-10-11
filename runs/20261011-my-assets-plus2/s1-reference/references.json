@@ -1,0 +1,14 @@
+{
+  "references": [
+    {"id": "R-01", "screen": "내 자산", "app": "당근", "url": "https://uibowl.io/name/%EB%8B%B9%EA%B7%BC?patterns=%EB%82%B4%EC%97%AD&patternName=%ED%8C%90%EB%A7%A4%EB%82%B4%EC%97%AD"},
+    {"id": "R-02", "screen": "내 자산", "app": "니콘내콘", "url": "https://uibowl.io/name/%EB%8B%88%EC%BD%98%EB%82%B4%EC%BD%98?patterns=%EB%82%B4%EC%97%AD&patternName=%ED%8C%90%EB%A7%A4%EB%82%B4%EC%97%AD"},
+    {"id": "R-03", "screen": "내 자산", "app": "플리더스", "url": "https://uibowl.io/name/%ED%94%8C%EB%A6%AC%EB%8D%94%EC%8A%A4?patterns=iPhone%20%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7&imgId=cmubb0uox000vl404e7luya7p"},
+    {"id": "R-04", "screen": "자산 상세", "app": "쑥쑥찰칵", "url": "https://uibowl.io/name/%EC%91%A5%EC%91%A5%EC%B0%B0%EC%B9%B5?patterns=%EC%84%A4%EC%A0%95&imgId=cmub7kwx2000njs04uwzytdex"},
+    {"id": "R-05", "screen": "자산 상세", "app": "정오의데이트", "url": "https://uibowl.io/name/%EC%A0%95%EC%98%A4%EC%9D%98%EB%8D%B0%EC%9D%B4%ED%8A%B8?patterns=%EB%A1%9C%EA%B7%B8%EC%9D%B8%C2%B7%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85&imgId=clydnxr2p0012l70cjp55ntuk"},
+    {"id": "R-06", "screen": "자산 상세", "app": "투두메이트", "url": "https://uibowl.io/name/%ED%88%AC%EB%91%90%EB%A9%94%EC%9D%B4%ED%8A%B8?patterns=%EC%84%A4%EC%A0%95&imgId=cmpjgotde006wlg04n8w5gy5p"},
+    {"id": "R-07", "screen": "자산 상세", "app": "달다방", "url": "https://uibowl.io/name/%EB%8B%AC%EB%8B%A4%EB%B0%A9?patterns=%EC%83%81%EC%84%B8%EC%A0%95%EB%B3%B4%20%28PDP%29&patternName=%EC%83%81%ED%92%88"},
+    {"id": "R-08", "screen": "운영자 검수 화면", "app": "럽맘", "url": "https://uibowl.io/name/%EB%9F%BD%EB%A7%98?patterns=%EB%AA%A9%EB%A1%9D%20%28PLP%29&imgId=cmpz14i9z000gju04kcxa12vk"},
+    {"id": "R-09", "screen": "운영자 검수 화면", "app": "다글로", "url": "https://uibowl.io/name/%EB%8B%A4%EA%B8%80%EB%A1%9C?patterns=%EB%A1%9C%EA%B7%B8%EC%9D%B8%C2%B7%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85&imgId=cmpieqzyx0003l404nm7kjwy0"},
+    {"id": "R-10", "screen": "운영자 검수 화면", "app": "라우드소싱", "url": "https://uibowl.io/name/%EB%9D%BC%EC%9A%B0%EB%93%9C%EC%86%8C%EC%8B%B1?patterns=%ED%83%90%EC%83%89&imgId=clx0g6kys005ijt0c8hq64aa3"}
+  ]
+}

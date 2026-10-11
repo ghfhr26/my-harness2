@@ -1,0 +1,62 @@
+{
+  "run": "20261011-my-assets-plus2",
+  "created": "2026-10-11T22:30:15",
+  "stage": "DONE",
+  "status": "done",
+  "gates": {
+    "G0": {
+      "result": "pass",
+      "at": "2026-10-11T22:30:23",
+      "violations": 0
+    },
+    "G1": {
+      "result": "pass",
+      "at": "2026-10-11T22:33:13",
+      "violations": 0
+    },
+    "G2": {
+      "result": "pass",
+      "at": "2026-10-11T22:38:39",
+      "violations": 0
+    },
+    "G3": {
+      "result": "pass",
+      "at": "2026-10-11T22:50:37",
+      "violations": 0
+    },
+    "G4": {
+      "result": "pass",
+      "at": "2026-10-11T22:56:54",
+      "violations": 0
+    },
+    "S5": {
+      "result": "pass",
+      "at": "2026-10-11T22:57:04",
+      "violations": 0
+    }
+  },
+  "retries": {},
+  "s5_returns": 0,
+  "hashes": {
+    "S1": {
+      "adopt.md": "43e0f416828de380a7c9facb65b29155020496c8a5a3f7dd6e6a6db7e6767837",
+      "references.json": "dfe7c33e4032037376ffa8590f0a7a122b1d7a0793a956ee51c0b6c247c8c57b"
+    },
+    "S2": {
+      "screen-spec.md": "9d939f6d393485664f80c279cbe5d696a652053804335ff100366c07bff853a9"
+    },
+    "S3": {
+      "approval.json": "d5b023b250ebfcbad78fea743fdca6d25ae1a641f7e33905407b51b4f882a9cc",
+      "keyscreens.json": "9abc1cdf9bb21b44e451016baf93d9a63a30de9adf93ce410be6c171f6c8f478",
+      "notes.md": "a19d69664197bb32823e8ef5e9463e1ea972c426cc3beb81301e1867d89aefd9"
+    },
+    "S4": {
+      "components.json": "f46ee6829c6df53259cb7ae3341b1fa4bb886c38d8c224b0423e8bd7b6e20097",
+      "screens.json": "c081423eec8681e772a300303dde4e1e21c3f98c31106d18caee9b6da0794e3d",
+      "tokens.json": "b6af9e24b2f2c9c9e3e26f68cb5532f8e0f2d546d6c23d80eb0152fe9d52ca38"
+    }
+  },
+  "violation_counts": {},
+  "confirm_history": [],
+  "lock": "acc422543782088ec8bf00b4d652a0288e8dd7fde083e3d7df959c22f2436379"
+}

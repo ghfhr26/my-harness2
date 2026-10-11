@@ -1,0 +1,24 @@
+{
+  "run": "20261011-my-assets",
+  "created": "2026-10-11T21:24:45",
+  "stage": "G0",
+  "status": "halted",
+  "gates": {
+    "G0": {
+      "result": "fail",
+      "at": "2026-10-11T21:24:56",
+      "violations": 1
+    }
+  },
+  "retries": {
+    "G0": 1
+  },
+  "s5_returns": 0,
+  "hashes": {},
+  "violation_counts": {
+    "G0-4": 1
+  },
+  "confirm_history": [],
+  "lock": "cd343bf129caab82aeb02dca91b5e94a6189cfa2f839d80d1d26b4664897de7d",
+  "halt_reason": "G0 미통과"
+}
